@@ -11,9 +11,10 @@ Here is the solution for Pressford News.
     4. Update PressfordNews connection string in web.config
   2. From database script
     1. Load PressfordNews.DB.publish.sql file in SQL Server Management Studio 
-    2. Click on menu option Query and Enable SQLCMD Mode (3rd option from bottom)
+    2. Click on menu option Query and Enable SQLCMD Mode (while in the query editor)
     3. Execute to create database
     4. Update PressfordNews connection string in web.config
+![alt text](https://raw.githubusercontent.com/kashifsoofi/PressfordNews/master/SQLCMD%20Mode.png "SQLCMD Mode")
 3. Login is required but there are no users in DB
 4. Register link can be used to create new users (don't worry about passwords, it is required but not saved/used)
 5. Register Publisher/Staff users
