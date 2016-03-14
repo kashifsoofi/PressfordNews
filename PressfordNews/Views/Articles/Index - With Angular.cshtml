@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div ng-app="PressfordNewsApp" ng-controller="articlesController">
+    <article ng-repeat="article in articles">
+        <div class="article-title">{{article.Title}}</div>
+        <div class="article-subtitle">Kashif Jamal Soofi <span style="font-weight: bold">·</span> {{ article.PublishDate | date: 'MMMM dd, yyyy hh:mm a' }}</div>
+        <div class="article-body" ng-bind-html="article.Body"></div>
+    </article>
+</div>

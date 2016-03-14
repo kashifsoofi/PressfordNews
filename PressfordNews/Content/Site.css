@@ -1,0 +1,47 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+article {
+    border: 1px solid lightgrey;
+    margin-top: 14px;
+    padding: 10px;
+}
+
+.article-title {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article-subtitle {
+    color: rgb(119, 119, 119)
+}
+
+.article-author {
+    font-weight: bold;
+}
+
+.article-body {
+
+}
+
+.article-comment {
+    margin-top: 4px;
+    padding: 4px;
+    background-color: lightgrey;
+}
